@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		89006AC51F77186A00406233 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89006AC41F77186A00406233 /* Bolts.framework */; };
+		89006AC71F77187500406233 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89006AC61F77187500406233 /* Parse.framework */; };
+		89006ACA1F7718A800406233 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89006AC91F7718A800406233 /* AudioToolbox.framework */; };
+		89006AD41F77191C00406233 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89006ACB1F77191C00406233 /* CFNetwork.framework */; };
+		89006AD51F77191C00406233 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89006ACC1F77191C00406233 /* CoreGraphics.framework */; };
+		89006AD61F77191C00406233 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89006ACD1F77191C00406233 /* CoreLocation.framework */; };
+		89006AD71F77191C00406233 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 89006ACE1F77191C00406233 /* libsqlite3.tbd */; };
+		89006AD81F77191C00406233 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 89006ACF1F77191C00406233 /* libz.tbd */; };
+		89006AD91F77191C00406233 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89006AD01F77191C00406233 /* QuartzCore.framework */; };
+		89006ADA1F77191C00406233 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89006AD11F77191C00406233 /* Security.framework */; };
+		89006ADB1F77191C00406233 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89006AD21F77191C00406233 /* StoreKit.framework */; };
+		89006ADC1F77191C00406233 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89006AD31F77191C00406233 /* SystemConfiguration.framework */; };
 		D0B765C51F770F2C000F3178 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B765C41F770F2C000F3178 /* AppDelegate.swift */; };
 		D0B765C71F770F2C000F3178 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B765C61F770F2C000F3178 /* ViewController.swift */; };
 		D0B765CA1F770F2D000F3178 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0B765C81F770F2D000F3178 /* Main.storyboard */; };
@@ -26,6 +38,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		89006AC41F77186A00406233 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "../Parse-iOS/Bolts.framework"; sourceTree = "<group>"; };
+		89006AC61F77187500406233 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = "../Parse-iOS/Parse.framework"; sourceTree = "<group>"; };
+		89006AC91F7718A800406233 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		89006ACB1F77191C00406233 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		89006ACC1F77191C00406233 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		89006ACD1F77191C00406233 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		89006ACE1F77191C00406233 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		89006ACF1F77191C00406233 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		89006AD01F77191C00406233 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		89006AD11F77191C00406233 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		89006AD21F77191C00406233 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		89006AD31F77191C00406233 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		D0B765C11F770F2C000F3178 /* SecondFactor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SecondFactor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0B765C41F770F2C000F3178 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D0B765C61F770F2C000F3178 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -43,6 +67,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89006AD41F77191C00406233 /* CFNetwork.framework in Frameworks */,
+				89006AD51F77191C00406233 /* CoreGraphics.framework in Frameworks */,
+				89006AD61F77191C00406233 /* CoreLocation.framework in Frameworks */,
+				89006AD71F77191C00406233 /* libsqlite3.tbd in Frameworks */,
+				89006AD81F77191C00406233 /* libz.tbd in Frameworks */,
+				89006AD91F77191C00406233 /* QuartzCore.framework in Frameworks */,
+				89006ADA1F77191C00406233 /* Security.framework in Frameworks */,
+				89006ADB1F77191C00406233 /* StoreKit.framework in Frameworks */,
+				89006ADC1F77191C00406233 /* SystemConfiguration.framework in Frameworks */,
+				89006ACA1F7718A800406233 /* AudioToolbox.framework in Frameworks */,
+				89006AC71F77187500406233 /* Parse.framework in Frameworks */,
+				89006AC51F77186A00406233 /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,9 +92,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		89006AC31F77183200406233 /* back4app */ = {
+			isa = PBXGroup;
+			children = (
+				89006AC61F77187500406233 /* Parse.framework */,
+				89006AC41F77186A00406233 /* Bolts.framework */,
+			);
+			name = back4app;
+			sourceTree = "<group>";
+		};
+		89006AC81F7718A800406233 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				89006AC31F77183200406233 /* back4app */,
+				89006ACB1F77191C00406233 /* CFNetwork.framework */,
+				89006ACC1F77191C00406233 /* CoreGraphics.framework */,
+				89006ACD1F77191C00406233 /* CoreLocation.framework */,
+				89006ACE1F77191C00406233 /* libsqlite3.tbd */,
+				89006ACF1F77191C00406233 /* libz.tbd */,
+				89006AD01F77191C00406233 /* QuartzCore.framework */,
+				89006AD11F77191C00406233 /* Security.framework */,
+				89006AD21F77191C00406233 /* StoreKit.framework */,
+				89006AD31F77191C00406233 /* SystemConfiguration.framework */,
+				89006AC91F7718A800406233 /* AudioToolbox.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D0B765B81F770F2C000F3178 = {
 			isa = PBXGroup;
 			children = (
+				89006AC81F7718A800406233 /* Frameworks */,
 				D0B765C31F770F2C000F3178 /* SecondFactor */,
 				D0B765D81F770F2D000F3178 /* SecondFactorTests */,
 				D0B765C21F770F2C000F3178 /* Products */,
